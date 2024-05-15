@@ -1,0 +1,12 @@
+{
+  "name": "Palladium",
+  "description": "Used for making weaponary.",
+  "cost": 2,
+  "color": "717F82",
+  "hardness": 2,
+  "flammability": 0,
+  "explosiveness": 0,
+  "research": {
+    "parent": "coal"
+  }
+}
