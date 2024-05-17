@@ -6,4 +6,3 @@ palladium.color = Color.valueOf("717f82");
 palladium.hardness = 2;
 palladium.flammability = 0;
 palladium.explosiveness = 0;
-palladium.research = Research.parent("titanium");
