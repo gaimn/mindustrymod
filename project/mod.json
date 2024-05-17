@@ -1,8 +1,0 @@
-name: "epic-mod"
-displayName: "making a mod"
-author: Yourself
-description: "Hello!"
-version: "1.0"
-minGameVersion: "146"
-dependencies: [ ]
-hidden: false 
