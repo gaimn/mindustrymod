@@ -7,5 +7,5 @@ palladium.hardness = 2;
 palladium.flammability = 0;
 palladium.explosiveness = 0;
 palladium.research = {
-  "parent": "copper";
+  parent: "copper";
 };
