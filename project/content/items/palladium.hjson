@@ -1,12 +1,11 @@
-{
-  "name": "Palladium",
-  "description": "Used for making weaponary.",
-  "cost": 2,
-  "color": "717F82",
-  "hardness": 2,
-  "flammability": 0,
-  "explosiveness": 0,
-  "research": {
-    "parent": "copper"
-  }
-}
+const palladium = Item("palladium");
+palladium.name = "Palladium";
+palladium.description = "Used for making weaponary.";
+palladium.cost = 2;
+palladium.color = #717f82;
+palladium.hardness = 2;
+palladium.flammability = 0;
+palladium.explosiveness = 0;
+//"research": {
+//  "parent": "copper"
+//}
