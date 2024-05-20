@@ -1,3 +1,4 @@
+constructor = UnitEntity::new
 type: groundUnit
 name: Beam
 description: TEST UNIT
