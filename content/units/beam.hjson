@@ -1,9 +1,0 @@
-constructor = UnitEntity::new
-type: groundUnit
-name: Beam
-description: TEST UNIT
-speed: 0.5
-flying: false
-health: 130
-engineOffset: 5.5
-range: 160
