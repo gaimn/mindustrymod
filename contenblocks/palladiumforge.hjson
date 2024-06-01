@@ -1,0 +1,47 @@
+{
+  "type": "GenericCrafter",
+  "name": "Palladium Forge",
+  "description": "Creates palladium by vigorously mixing lead and titanium. (maybe make drillable?)",
+  "size": 2,
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": false,
+  "craftTime": 300,
+  "craftEffect": "smeltsmoke",
+  "updateEffect": "pulverizeRed",
+  "consumes": {
+    "power": 1.1,
+    "items": {
+      "items": [
+        {
+          "item": "lead",
+          "amount": 2
+        },
+        {
+          "item": "titanium",
+          "amount": 1
+        }
+      ]
+    }
+  },
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 100
+    },
+    {
+      "item": "lead",
+      "amount": 70
+    },
+    {
+      "item": "titanium",
+      "amount": 30
+    }
+  ],
+  "category": "crafting",
+  "research": "silicon-smelter",
+  "outputItem": {
+    "item": "palladium",
+    "amount": 1
+  }
+}
