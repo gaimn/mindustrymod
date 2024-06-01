@@ -7,6 +7,6 @@
   "flammability": 0,
   "explosiveness": 0,
   "research": {
-    "parent": "mod-gate-resources"
+    "parent": "titanium"
   }
 }
