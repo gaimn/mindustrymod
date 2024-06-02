@@ -11,12 +11,12 @@
   "health": 1100,
   "reload": 10,
   "size": 2,
-  "inaccuracy": 0,
+  "inaccuracy": 5,
   "shootCone": 10,
   "range": 180,
   "rotateSpeed": 8,
-  "ammoPerShot": 5,
-  "maxAmmo": 12,
+  "ammoPerShot": 1,
+  "maxAmmo": 10,
   "recoil": 2,
   "shootEffect": "shootBig",
   "smokeEffect": "shootBigSmoke",
@@ -24,13 +24,22 @@
   "ammoTypes": {
     "graphite": {
       "type": "MissileBulletType",
-      "hitSize": 3,
+      "hitSize": 2,
       "speed": 6,
-      "lifetime": 120,
+      "lifetime": 40,
       "damage": 20,
-      "sprite": "missile-small",
+      "sprite": "missile-large",
       "recoil": 2
     },
+    "titanium": {
+      "type": "MissileBulletType",
+      "hitSize": 1.5,
+      "speed": 7,
+      "lifetime": 45,
+      "damage": 25,
+      "sprite": "missile-large",
+      "recoil": 2
+    }
   },
   "requirements": [
     {
