@@ -17,20 +17,19 @@
   "rotateSpeed": 8,
   "ammoPerShot": 5,
   "maxAmmo": 12,
-  "recoil": 7,
-  "shake": 4,
+  "recoil": 2,
   "shootEffect": "shootBig",
   "smokeEffect": "shootBigSmoke",
   "hitEffect": "hitBulletSmall",
   "ammoTypes": {
     "graphite": {
       "type": "MissileBulletType",
-      "hitSize": 4,
-      "speed": 1.5,
+      "hitSize": 3,
+      "speed": 6,
       "lifetime": 120,
       "damage": 20,
-      "sprite": "missile-large",
-      "recoil": 4
+      "sprite": "missile-small",
+      "recoil": 2
     },
   },
   "requirements": [
