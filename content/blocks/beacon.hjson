@@ -1,0 +1,54 @@
+{
+  "type": "itemTurret",
+  "name": "Beacon",
+  "description": "Rapidly shoots bullets at nearby enemies.",
+  "targetAir": true,
+  "targetGround": true,
+  "category": "turret",
+  "research": {
+    "parent": "salvo",
+  },
+  "health": 1100,
+  "reload": 25,
+  "size": 2,
+  "inaccuracy": 0,
+  "shootCone": 15,
+  "range": 26,
+  "rotateSpeed": 8,
+  "ammoPerShot": 5,
+  "maxAmmo": 12,
+  "recoil": 7,
+  "shake": 4,
+  "shootEffect": "shootBig",
+  "smokeEffect": "shootBigSmoke",
+  "hitEffect": "hitBulletSmall",
+  "ammoTypes": {
+    "graphite": {
+      "type": "BulletType",
+      "hitSize": 4,
+      "speed": 1.5,
+      "lifetime": 120,
+      "damage": 10,
+      "sprite": "missile-large",
+      "recoil": 4
+    },
+  },
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 150
+    },
+    {
+      "item": "lead",
+      "amount": 80
+    },
+    {
+      "item": "graphite",
+      "amount": 120
+    },
+    {
+      "item": "palladium",
+      "amount": 100
+    }
+  ]
+}
