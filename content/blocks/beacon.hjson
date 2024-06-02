@@ -28,7 +28,7 @@
       "hitSize": 4,
       "speed": 1.5,
       "lifetime": 120,
-      "damage": 15,
+      "damage": 20,
       "sprite": "missile-large",
       "recoil": 4
     },
