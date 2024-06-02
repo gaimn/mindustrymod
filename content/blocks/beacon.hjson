@@ -29,7 +29,8 @@
       "lifetime": 30,
       "damage": 20,
       "sprite": "missile-large",
-      "recoil": 2
+      "recoil": 2,
+      "homingPower": 0
     },
     "titanium": {
       "type": "MissileBulletType",
@@ -38,7 +39,8 @@
       "lifetime": 35,
       "damage": 25,
       "sprite": "missile-large",
-      "recoil": 2
+      "recoil": 2,
+      "homingPower": 0
     }
   },
   "requirements": [
