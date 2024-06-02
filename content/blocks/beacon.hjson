@@ -13,7 +13,7 @@
   "size": 2,
   "inaccuracy": 0,
   "shootCone": 10,
-  "range": 26,
+  "range": 180,
   "rotateSpeed": 8,
   "ammoPerShot": 5,
   "maxAmmo": 12,
