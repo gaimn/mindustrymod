@@ -24,7 +24,7 @@
   "hitEffect": "hitBulletSmall",
   "ammoTypes": {
     "graphite": {
-      "type": "BulletType",
+      "type": "MissileBulletType",
       "hitSize": 4,
       "speed": 1.5,
       "lifetime": 120,
