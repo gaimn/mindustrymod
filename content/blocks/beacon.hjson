@@ -41,6 +41,16 @@
       "sprite": "missile-large",
       "recoil": 2,
       "homingPower": 0
+    },
+    "silicon": {
+      "type": "MissileBulletType",
+      "hitSize": 1.8,
+      "speed": 8,
+      "lifetime": 30,
+      "damage": 25,
+      "sprite": "missile-large",
+      "recoil": 2,
+      "homingPower": 0.2
     }
   },
   "requirements": [
