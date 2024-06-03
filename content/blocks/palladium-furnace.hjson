@@ -1,0 +1,54 @@
+{
+  "type": "GenericCrafter",
+  "name": "Palladium Furnace",
+  "description": "Produces palladium more rapidly, but requires more resources to use.",
+  "size": 3,
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": false,
+  "craftTime": 70,
+  "craftEffect": "smeltsmoke",  
+  "consumes": {
+    "power": 4,
+    "items": {
+      "items": [
+        {
+          "item": "lead",
+          "amount": 8
+        },
+        {
+          "item": "titanium",
+          "amount": 3
+        },
+        {
+          "item": "copper",
+          "amount": 1
+        }
+      ]
+    }
+  },
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 250
+    },
+    {
+      "item": "lead",
+      "amount": 150
+    },
+    {
+      "item": "titanium",
+      "amount": 100
+    },
+    {
+      "item": "palladium",
+      "amount": 80
+    }
+  ],
+  "category": "crafting",
+  "research": "palladium-forge",
+  "outputItem": {
+    "item": "palladium",
+    "amount": 4
+  }
+}
