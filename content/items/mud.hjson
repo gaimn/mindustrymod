@@ -1,0 +1,12 @@
+{
+  "name": "Mud",
+  "description": "Used for ceramic.",
+  "cost": 2,
+  "color": "C19886",
+  "hardness": 0,
+  "flammability": 0,
+  "explosiveness": 0,
+  "research": {
+    "parent": "sand"
+  }
+}
