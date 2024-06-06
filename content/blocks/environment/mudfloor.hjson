@@ -1,4 +1,5 @@
 {
+  "variants": 3,
   "type": "Floor",
   "itemDrop": "mud"
 }
