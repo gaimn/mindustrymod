@@ -1,56 +1,65 @@
 name: 'test'
 description: 'yoinked [red](for now)'
 
-type: mech
-mechLegColor: 1f1f1f
-
-health: 400
-armor: 1
-hitSize: 10
-
-speed: 1
-rotateSpeed: 1.5
-accel: 0.1
-
-itemCapacity: 10
+type: legs
+hitSize: 14
 outlineColor: 1f1f1f
 
-weapons: [
- {
-  type: Weapon
-  name: small-mount-weapon
-  
-  top: false
+health: 250
+armor: 1
+speed: 1.2
+rotateSpeed: 1.5
+
+legCount: 4
+legLength: 4
+legBaseOffset: 4
+legMoveSpace: 1
+legTrns: 0.6
+allowLegStep: true
+
+itemCapacity: 8
+
+weapons: [{
+  name: beam-laser
   x: 0
   y: 0
-  shootY: 2
-  shootX: 4.2
-  
-  mirror: true
-  rotate: false
-  shootCone: 10
-  inaccuracy: 0
-  reload: 5
-  targetInterval: 1
-  targetSwitchInterval: 1
-  cooldownTime: 100
-  
+  shootSound: laserblast
+  chargeSound: lasercharge
+  soundPitchMin: 1
+  top: false
+  mirror: false
+  shake: 6
+  shootY: 4
+  reload: 200
+  recoil: 0
+  cooldownTime: 200
+  firstShotDelay: 50
   bullet: {
-   type: BasicBulletType
-   width: 5
-   height: 7
-   
-   damage: 10
-   
-   speed: 2.7
-   lifetime: 30
-   
-   trailWidth: 1
-   trailLength: 5
-   }
+    type: LaserBulletType
+    length: 250
+    damage: 40
+    width: 10
+    lifetime: 50
+    lightningSpacing: 35
+     colors: [
+      FFD37FFF, D4816BFF, FFE9EFFF, FFFFFFFF
+    ]
+    lightningLength: 7
+    lightningDelay: 1.1
+    lightningLengthRand: 20
+    lightningDamage: 100
+    lightningAngleRand: 40
+    largeHit: true
+    lightColor: 73FFAEFF
+    lightningColor: 73FFAEFF
+    shootEffect: sparkExplosionwave
+    healPercent: 50
+    collidesTeam: true
+    sideAngle: 15
+    sideWidth: 0
+    sideLength: 0
   }
- ]
-
+}]
 
 research: dagger
 alwaysUnlocked: false
