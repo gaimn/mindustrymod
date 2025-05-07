@@ -50,9 +50,9 @@ weapons: [{
     lightningDamage: 100
     lightningAngleRand: 40
     largeHit: true
-    lightColor: 73FFAEFF
-    lightningColor: 73FFAEFF
-    shootEffect: wave
+    lightColor: FFD37FFF
+    lightningColor: D4816BFF
+    shootEffect: shockwave
     healPercent: 50
     collidesTeam: true
     sideAngle: 15
