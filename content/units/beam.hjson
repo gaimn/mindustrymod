@@ -52,7 +52,7 @@ weapons: [{
     largeHit: true
     lightColor: 73FFAEFF
     lightningColor: 73FFAEFF
-    shootEffect: sparkExplosionwave
+    shootEffect: wave
     healPercent: 50
     collidesTeam: true
     sideAngle: 15
