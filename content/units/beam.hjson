@@ -1,1 +1,6 @@
-# try :sob:
+{
+  "type": "tank",
+  "name": "test",
+  "description": "hi hello",
+  "hitSize": 10
+}
