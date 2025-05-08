@@ -11,7 +11,7 @@
   "health": 1400,
   "reload": 40,
   "size": 2,
-  "inaccuracy": 15,
+  "inaccuracy": 3,
   "shootCone": 10,
   "range": 100,
   "rotateSpeed": 12,
@@ -27,7 +27,7 @@
       "hitSize": 3,
       "speed": 4,
       "lifetime": 40,
-      "damage": 15,
+      "damage": 45,
       "sprite": "missile-large",
       "recoil": 3,
       "fragBullet": {
@@ -35,7 +35,7 @@
         "hitSize": 3,
         "speed": 2,
         "lifetime": 20,
-        "damage": 5,
+        "damage": 25,
         "sprite": "missile-small",
         "recoil": 1
       }
@@ -46,20 +46,20 @@
       "hitSize": 3,
       "speed": 3,
       "lifetime": 60,
-      "damage": 25,
+      "damage": 30,
       "sprite": "missile-large",
       "recoil": 3,
       "homingPower": 0,
       "fragBullet": {
         "type": "BasicBulletType",
         "hitSize": 1,
-        "speed": 5,
+        "speed": 8,
         "lifetime": 10,
-        "damage": 12,
+        "damage": 30,
         "sprite": "missile-small",
         "recoil": 1,
         "lightning": 5,
-        "lightningLength": 4,
+        "lightningLength": 10,
         "lightningDamage": 4
         "lightColor": "FFFF00FF"
       }
