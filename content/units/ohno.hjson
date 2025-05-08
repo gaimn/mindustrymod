@@ -27,14 +27,6 @@ weapons: [{
   recoil: 0
   cooldownTime: 4
   firstShotDelay: 0
-  fragment: {
-    type: basicBulletType
-    damage: 100
-    height: 7.8
-    width: 7.8
-    speed: 2
-    lifetime: 100
-  }
   bullet: {
     type: basicBulletType
     damage: 9160
@@ -42,7 +34,14 @@ weapons: [{
     width: 32
     speed: 10
     lifetime: 99
-    fragBullet: fragment
+    fragBullet: {
+      type: basicBulletType
+      damage: 100
+      height: 7.8
+      width: 7.8
+      speed: 2
+      lifetime: 100
+    }
     fragBullets: 6
   }
 }]
