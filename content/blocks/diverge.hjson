@@ -25,7 +25,7 @@
     "metaglass": {
       "type": "BasicBulletType",
       "hitSize": 3,
-      "speed": 8,
+      "speed": 4,
       "lifetime": 40,
       "damage": 15,
       "sprite": "missile-large",
@@ -33,7 +33,7 @@
       "fragBullet": {
         "type": "BasicBulletType",
         "hitSize": 3,
-        "speed": 12,
+        "speed": 2,
         "lifetime": 20,
         "damage": 5,
         "sprite": "missile-small",
@@ -44,8 +44,8 @@
     "plastanium": {
       "type": "BasicBulletType",
       "hitSize": 3,
-      "speed": 8,
-      "lifetime": 40,
+      "speed": 3,
+      "lifetime": 60,
       "damage": 25,
       "sprite": "missile-large",
       "recoil": 3,
@@ -53,7 +53,7 @@
       "fragBullet": {
         "type": "BasicBulletType",
         "hitSize": 1,
-        "speed": 16,
+        "speed": 5,
         "lifetime": 10,
         "damage": 12,
         "sprite": "missile-small",
