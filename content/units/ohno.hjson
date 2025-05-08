@@ -29,9 +29,9 @@ weapons: [{
   firstShotDelay: 0
   bullet: {
     type: basicBulletType
-    damage: 9
-    height: 8
-    width: 8
+    damage: 9160
+    height: 32
+    width: 32
     speed: 10
     lifetime: 99
   }
