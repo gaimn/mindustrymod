@@ -43,7 +43,7 @@ weapons: [{
       lifetime: 100
       fragBullet: {
         type: LaserBulletType
-        length: 50
+        length: 250
         damage: 500
         width: 16
         lifetime: 200
