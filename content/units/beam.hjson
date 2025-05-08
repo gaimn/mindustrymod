@@ -44,9 +44,9 @@ weapons: [{
      colors: [
       FFD37FFF, D4816BFF, FFE9EFFF, FFFFFFFF
     ]
-    lightningLength: 4
+    lightningLength: 2
     lightningDelay: 0.5
-    lightningLengthRand: 2
+    lightningLengthRand: 1
     lightningDamage: 5
     lightningAngleRand: 40
     largeHit: true
