@@ -41,6 +41,30 @@ weapons: [{
       width: 7.8
       speed: 2
       lifetime: 100
+      fragBullet: {
+        type: LaserBulletType
+        length: 50
+        damage: 500
+        width: 16
+        lifetime: 200
+        lightningSpacing: 16
+         colors: [
+          000000FF, FFFFFFFF
+        ]
+        lightningLength: 16
+        lightningDelay: 5
+        lightningLengthRand: 16
+        lightningDamage: 1666
+        lightningAngleRand: 90
+        largeHit: true
+        lightColor: 000000FF
+        lightningColor: FFFFFFFF
+        shootEffect: shockwave
+        sideAngle: 15
+        sideWidth: 0
+        sideLength: 0
+      }
+      fragBullets: 4
     }
     fragBullets: 6
   }
