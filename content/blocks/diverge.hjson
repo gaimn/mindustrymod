@@ -1,0 +1,87 @@
+{
+  "type": "itemTurret",
+  "name": "Diverge",
+  "description": "The bullets are weaker, although split. Also looks horrible.",
+  "targetAir": true,
+  "targetGround": true,
+  "category": "turret",
+  "research": {
+    "parent": "salvo",
+  },
+  "health": 1400,
+  "reload": 40,
+  "size": 2,
+  "inaccuracy": 15,
+  "shootCone": 10,
+  "range": 100,
+  "rotateSpeed": 12,
+  "ammoPerShot": 1,
+  "maxAmmo": 10,
+  "recoil": 3,
+  "shootEffect": "shootBig",
+  "smokeEffect": "shootBigSmoke",
+  "hitEffect": "hitBulletSmall",
+  "ammoTypes": {
+    "metaglass": {
+      "type": "BasicBulletType",
+      "hitSize": 3,
+      "speed": 8,
+      "lifetime": 40,
+      "damage": 15,
+      "sprite": "missile-large",
+      "recoil": 3,
+      "fragBullet": {
+        "type": "BasicBulletType",
+        "hitSize": 3,
+        "speed": 12,
+        "lifetime": 20,
+        "damage": 5,
+        "sprite": "missile-small",
+        "recoil": 1
+      }
+      "fragBullets": 8
+    },
+    "plastanium": {
+      "type": "BasicBulletType",
+      "hitSize": 3,
+      "speed": 8,
+      "lifetime": 40,
+      "damage": 25,
+      "sprite": "missile-large",
+      "recoil": 3,
+      "homingPower": 0,
+      "fragBullet": {
+        "type": "BasicBulletType",
+        "hitSize": 1,
+        "speed": 16,
+        "lifetime": 10,
+        "damage": 12,
+        "sprite": "missile-small",
+        "recoil": 1,
+        "lightning": 5,
+        "lightningLength": 4,
+        "lightningDamage": 4
+        "lightColor": "FFFF00FF"
+      }
+      "fragBullets": 3
+    }
+  },
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 25
+    },
+    {
+      "item": "lead",
+      "amount": 180
+    },
+    {
+      "item": "graphite",
+      "amount": 220
+    },
+    {
+      "item": "palladium",
+      "amount": 90
+    }
+  ]
+}
