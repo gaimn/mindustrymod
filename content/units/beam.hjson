@@ -46,7 +46,7 @@ weapons: [{
     ]
     lightningLength: 2
     lightningDelay: 1.1
-    lightningLengthRand: 20
+    lightningLengthRand: 1
     lightningDamage: 5
     lightningAngleRand: 40
     largeHit: true
