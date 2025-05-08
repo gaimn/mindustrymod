@@ -1,0 +1,41 @@
+name: 'oh no'
+description: '[red]oh no'
+
+type: flying
+hitSize: 1
+outlineColor: 1f1f1f
+
+health: 25000000
+armor: 250
+speed: 5
+rotateSpeed: 5
+
+itemCapacity: 8
+
+weapons: [{
+  name: skibidi
+  x: 0
+  y: 0
+  shootSound: laserblast
+  chargeSound: lasercharge
+  soundPitchMin: 1
+  top: false
+  mirror: false
+  shake: 6
+  shootY: 4
+  reload: 4
+  recoil: 0
+  cooldownTime: 4
+  firstShotDelay: 0
+  bullet: {
+    type: basicBulletType
+    damage: 9
+    height: 8
+    width: 8
+    speed: 10
+    lifetime: 99
+  }
+}]
+
+research: dagger
+alwaysUnlocked: false
