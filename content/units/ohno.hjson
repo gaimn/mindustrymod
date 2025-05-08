@@ -34,14 +34,15 @@ weapons: [{
     width: 32
     speed: 10
     lifetime: 99
-    fragBullet: bullet: {
-        type: basicBulletType
-        damage: 100
-        height: 7.8
-        width: 7.8
-        speed: 2
-        lifetime: 100
-    }
+    fragBullet: fragment
     fragBullets: 6
+  }
+  fragment: {
+    type: basicBulletType
+    damage: 100
+    height: 7.8
+    width: 7.8
+    speed: 2
+    lifetime: 100
   }
 }]
