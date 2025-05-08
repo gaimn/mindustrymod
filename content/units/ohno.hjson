@@ -36,6 +36,3 @@ weapons: [{
     lifetime: 99
   }
 }]
-
-research: dagger
-alwaysUnlocked: false
