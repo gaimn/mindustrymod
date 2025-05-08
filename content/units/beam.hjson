@@ -40,11 +40,11 @@ weapons: [{
     damage: 30
     width: 6
     lifetime: 50
-    lightningSpacing: 10
+    lightningSpacing: 4
      colors: [
       FFD37FFF, D4816BFF, FFE9EFFF, FFFFFFFF
     ]
-    lightningLength: 5
+    lightningLength: 2
     lightningDelay: 1.1
     lightningLengthRand: 20
     lightningDamage: 5
@@ -53,8 +53,6 @@ weapons: [{
     lightColor: FFD37FFF
     lightningColor: D4816BFF
     shootEffect: shockwave
-    healPercent: 50
-    collidesTeam: true
     sideAngle: 15
     sideWidth: 0
     sideLength: 0
