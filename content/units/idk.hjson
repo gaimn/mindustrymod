@@ -1,0 +1,63 @@
+name: 'beam but cooler'
+description: 'yoinked [red](for now)'
+
+type: legs
+hitSize: 14
+outlineColor: 1f1f1f
+
+health: 650
+armor: 2
+speed: 0.55
+rotateSpeed: 2
+
+legCount: 4
+legLength: 6
+legBaseOffset: 4
+legMoveSpace: 1
+legTrns: 0.6
+allowLegStep: true
+
+itemCapacity: 8
+
+weapons: [{
+  name: beam-laser
+  x: 0
+  y: 0
+  shootSound: laserblast
+  chargeSound: lasercharge
+  soundPitchMin: 1
+  top: false
+  mirror: false
+  shake: 6
+  shootY: 4
+  reload: 200
+  recoil: 0
+  cooldownTime: 200
+  firstShotDelay: 50
+  bullet: {
+    type: LaserBulletType
+    length: 150
+    damage: 30
+    width: 6
+    lifetime: 50
+    lightningSpacing: 4
+     colors: [
+      FFD37FFF, D4816BFF, FFE9EFFF, FFFFFFFF
+    ]
+    lightningLength: 2
+    lightningDelay: 0.5
+    lightningLengthRand: 1
+    lightningDamage: 5
+    lightningAngleRand: 40
+    largeHit: true
+    lightColor: FFD37FFF
+    lightningColor: D4816BFF
+    shootEffect: shockwave
+    sideAngle: 15
+    sideWidth: 0
+    sideLength: 0
+  }
+}]
+
+research: dagger
+alwaysUnlocked: false
