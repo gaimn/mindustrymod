@@ -24,8 +24,8 @@
       ],
       "liquids": [
         {
-          "item": "water",
-          "amount": 6
+          "liquid": "water",
+          "amount": 1
         }
       ]
     }
