@@ -21,7 +21,7 @@ weapons: [{
   soundPitchMin: 1
   top: false
   mirror: false
-  shake: 6
+  shake: 4
   shootY: 4
   reload: 4
   recoil: 0
@@ -39,17 +39,19 @@ weapons: [{
       damage: 250
       height: 8
       width: 8
-      speed: 10
+      speed: 25
       lifetime: 10
       fragBullet: {
         type: LaserBulletType
         length: 250
         damage: 50
-        width: 10
+        width: 20
         lifetime: 10
         colors: [
           000000FF, 000000FF, FF0000FF, FF0000FF
         ]
+        hitColor: FF0000FF
+        lightningColor: FF0000FF
         largeHit: true
         lightColor: FF0000FF
         shootEffect: shockwave
@@ -60,5 +62,7 @@ weapons: [{
       fragBullets: 1
     }
     fragBullets: 4
+    fragVelocityMin = 0.5
+    fragVelocityMax = 0.5
   }
 }]
