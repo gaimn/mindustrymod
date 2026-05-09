@@ -14,15 +14,17 @@
       "items": [
         {
           "item": "lead",
-          "amount": 8
+          "amount": 6
         },
         {
           "item": "titanium",
           "amount": 3
-        },
+        }
+      ],
+      "liquids": [
         {
-          "item": "copper",
-          "amount": 1
+          "item": "water",
+          "amount": 6
         }
       ]
     }
