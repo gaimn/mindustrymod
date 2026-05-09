@@ -5,7 +5,8 @@
   "size": 2,
   "hasPower": true,
   "hasItems": true,
-  "hasLiquids": false,
+  "hasLiquids": true,
+  "liquidCapacity": 10,
   "craftTime": 80,
   "craftEffect": "smeltsmoke",
   "consumes": {
@@ -19,6 +20,12 @@
         {
           "item": "titanium",
           "amount": 1
+        }
+      ],
+      "liquids": [
+        {
+          "item": "water",
+          "amount": 6
         }
       ]
     }
