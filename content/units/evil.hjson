@@ -1,5 +1,5 @@
-name: 'oh no'
-description: '[red]oh no'
+name: 'malevolent larp'
+description: 'let's larp'
 
 type: flying
 hitSize: 1
@@ -7,10 +7,10 @@ outlineColor: ff0000
 
 health: 25000000
 armor: 250
-speed: 5
-rotateSpeed: 5
+speed: 3
+rotateSpeed: 10
 
-itemCapacity: 8
+itemCapacity: 50
 
 weapons: [{
   name: malevolentlarp
