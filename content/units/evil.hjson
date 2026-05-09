@@ -44,7 +44,7 @@ weapons: [{
       fragBullet: {
         type: LaserBulletType
         length: 250
-        damage: 50
+        damage: 200
         width: 25
         lifetime: 10
         colors: [
@@ -54,10 +54,9 @@ weapons: [{
         lightningColor: FF0000FF
         largeHit: true
         lightColor: FF0000FF
-        shootEffect: shockwave
         sideAngle: 15
-        sideWidth: 15
-        sideLength: 250
+        sideWidth: 0
+        sideLength: 0
       }
       fragBullets: 1
     }
