@@ -3,7 +3,7 @@ description: '[red]oh no'
 
 type: flying
 hitSize: 1
-outlineColor: 1f1f1f
+outlineColor: ff0000
 
 health: 25000000
 armor: 250
@@ -30,33 +30,35 @@ weapons: [{
   bullet: {
     type: basicBulletType
     damage: 100
-    height: 4
-    width: 4
+    height: 8
+    width: 8
     speed: 10
     lifetime: 25
     fragBullet: {
-      type: LaserBulletType
-      length: 150
-      damage: 50
-      width: 5
+      type: basicBulletType
+      damage: 250
+      height: 8
+      width: 8
+      speed: 10
       lifetime: 10
-      lightningSpacing: 4
-      colors: [
-        000000FF, FF0000FF, CC0000FF, 000000FF
-      ]
-      lightningLength: 2
-      lightningDelay: 0.5
-      lightningLengthRand: 1
-      lightningDamage: 5
-      lightningAngleRand: 40
-      largeHit: true
-      lightColor: FFD37FFF
-      lightningColor: D4816BFF
-      shootEffect: shockwave
-      sideAngle: 15
-      sideWidth: 0
-      sideLength: 0
+      fragBullet: {
+        type: LaserBulletType
+        length: 250
+        damage: 50
+        width: 10
+        lifetime: 10
+        colors: [
+          000000FF, 000000FF, FF0000FF, FF0000FF
+        ]
+        largeHit: true
+        lightColor: FF0000FF
+        shootEffect: shockwave
+        sideAngle: 15
+        sideWidth: 0
+        sideLength: 0
+      }
+      fragBullets: 1
     }
-    fragBullets: 2
+    fragBullets: 4
   }
 }]
