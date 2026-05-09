@@ -12,7 +12,7 @@
   "reload": 10,
   "size": 2,
   "inaccuracy": 5,
-  "shootX": -8,
+  "shootY": -5,
   "shootCone": 10,
   "range": 180,
   "rotateSpeed": 8,
