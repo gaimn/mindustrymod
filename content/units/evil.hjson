@@ -62,7 +62,7 @@ weapons: [{
       fragBullets: 1
     }
     fragBullets: 4
-    fragVelocityMin = 0.5
-    fragVelocityMax = 0.5
+    fragVelocityMin: 0.5
+    fragVelocityMax: 0.5
   }
 }]
