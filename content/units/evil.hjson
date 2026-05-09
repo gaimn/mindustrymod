@@ -1,4 +1,4 @@
-name: 'malevolentlarp'
+name: 'malevolent larp'
 description: 'let's larp'
 
 type: flying
@@ -13,7 +13,7 @@ rotateSpeed: 10
 itemCapacity: 50
 
 weapons: [{
-  name: malevolentlarp
+  name: 'larp'
   x: 0
   y: 0
   shootSound: laserblast
