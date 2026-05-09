@@ -27,30 +27,33 @@
       "hitSize": 2,
       "speed": 6,
       "lifetime": 30,
-      "damage": 20,
+      "damage": 30,
       "sprite": "missile-large",
       "recoil": 2,
-      "homingPower": 0
+      "homingPower": 0,
+      "ammoMultiplier": 3
     },
     "titanium": {
       "type": "MissileBulletType",
       "hitSize": 1.5,
       "speed": 7,
       "lifetime": 35,
-      "damage": 25,
+      "damage": 45,
       "sprite": "missile-large",
       "recoil": 2,
-      "homingPower": 0
+      "homingPower": 0,
+      "ammoMultiplier": 3
     },
     "silicon": {
       "type": "MissileBulletType",
       "hitSize": 1.8,
       "speed": 8,
       "lifetime": 30,
-      "damage": 25,
+      "damage": 30,
       "sprite": "missile-large",
       "recoil": 2,
-      "homingPower": 0.2
+      "homingPower": 0.2,
+      "ammoMultiplier": 3
     }
   },
   "requirements": [
