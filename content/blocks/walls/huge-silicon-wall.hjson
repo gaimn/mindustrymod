@@ -1,0 +1,15 @@
+{
+  "name": "Huge Silicon Wall",
+  "description": "Protects structures from enemy projectiles, reflecting some bullets on impact.",
+  "type": "Wall",
+  "health": 3420,
+  "size": 3,
+  "chanceDeflect": 3.0,
+  "research": {
+    "parent": "large-silicon-wall",
+  },
+  "requirements": [
+    "silicon/54"
+  ],
+  "category": "defense",
+}
