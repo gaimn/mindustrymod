@@ -1,0 +1,70 @@
+{
+  "type": "GenericCrafter",
+  "name": "Industrial Silicon Blaster",
+  "description": "An unneccessarily large Silicon Smelter that has really good efficiency.\n(what was the point of this lol)",
+  "size": 2,
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": true,
+  "liquidCapacity": 300,
+  "craftTime": 180,
+  "craftEffect": "smeltsmoke",
+  "consumes": {
+    "power": 66.66667, // 4k/s
+    // 1 = 60/s
+    "items": {
+      "items": [
+        {
+          "item": "sand",
+          "amount": 50
+          // 1 = 1, yeah
+        },
+        {
+          "item": "coal",
+          "amount": 20
+        }
+      ]
+    },
+    "liquid": {
+      "liquid": "slag",
+      "amount": 0.5 // 30/s
+      // 1 = 60/s
+    }
+  },
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 800
+    },
+    {
+      "item": "lead",
+      "amount": 650
+    },
+    {
+      "item": "metaglass",
+      "amount": 700
+    },
+    {
+      "item": "titanium",
+      "amount": 1000
+    },
+    {
+      "item": "silicon",
+      "amount": 500
+    },
+    {
+      "item": "plastanium",
+      "amount": 300
+    },
+    {
+      "item": "palladium",
+      "amount": 600
+    }
+  ],
+  "category": "crafting",
+  "research": "silicon-crucible",
+  "outputItem": {
+    "item": "silicon",
+    "amount": 75
+  }
+}
