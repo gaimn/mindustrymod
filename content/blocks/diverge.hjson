@@ -29,7 +29,7 @@
       "lifetime": 40,
       "damage": 45,
       "sprite": "missile-large",
-      "recoil": 3,
+      "recoil": 5,
       "fragBullet": {
         "type": "BasicBulletType",
         "hitSize": 3,
@@ -48,18 +48,18 @@
       "lifetime": 60,
       "damage": 30,
       "sprite": "missile-large",
-      "recoil": 3,
+      "recoil": 5,
       "homingPower": 0,
       "fragBullet": {
         "type": "BasicBulletType",
         "hitSize": 1,
-        "speed": 8,
+        "speed": 2,
         "lifetime": 10,
         "damage": 30,
         "sprite": "missile-small",
         "recoil": 1,
-        "lightning": 5,
-        "lightningLength": 10,
+        "lightning": 2,
+        "lightningLength": 3,
         "lightningDamage": 4
         "lightColor": "FFFF00FF"
       }
@@ -69,19 +69,19 @@
   "requirements": [
     {
       "item": "copper",
-      "amount": 25
-    },
-    {
-      "item": "lead",
-      "amount": 180
+      "amount": 80
     },
     {
       "item": "graphite",
-      "amount": 220
+      "amount": 60
+    },
+    {
+      "item": "titanium",
+      "amount": 40
     },
     {
       "item": "palladium",
-      "amount": 90
+      "amount": 50
     }
   ]
 }
