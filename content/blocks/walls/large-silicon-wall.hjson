@@ -6,7 +6,7 @@
   "size": 2,
   "chanceDeflect": 3.0,
   "research": {
-    "parent": "copper-wall",
+    "parent": "silicon-wall",
   },
   "requirements": [
     "silicon/6"
