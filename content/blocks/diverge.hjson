@@ -27,7 +27,7 @@
       "hitSize": 2,
       "speed": 4,
       "lifetime": 40,
-      "damage": 45,
+      "damage": 80,
       "sprite": "missile-large",
       "recoil": 5,
       "fragBullet": {
@@ -35,7 +35,7 @@
         "hitSize": 3,
         "speed": 2,
         "lifetime": 20,
-        "damage": 25,
+        "damage": 15,
         "sprite": "missile-small",
         "recoil": 1
       }
@@ -46,7 +46,7 @@
       "hitSize": 3,
       "speed": 3,
       "lifetime": 60,
-      "damage": 30,
+      "damage": 100,
       "sprite": "missile-large",
       "recoil": 5,
       "homingPower": 0,
@@ -55,15 +55,15 @@
         "hitSize": 1,
         "speed": 2,
         "lifetime": 10,
-        "damage": 30,
+        "damage": 15,
         "sprite": "missile-small",
         "recoil": 1,
         "lightning": 2,
         "lightningLength": 3,
-        "lightningDamage": 4
+        "lightningDamage": 5
         "lightColor": "FFFF00FF"
       }
-      "fragBullets": 3
+      "fragBullets": 5
     }
   },
   "requirements": [
