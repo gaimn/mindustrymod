@@ -22,7 +22,7 @@
           "amount": 3
         }
       ],
-      "liquid": [
+      "liquids": [
         {
           "liquid": "water",
           "amount": 0.1
