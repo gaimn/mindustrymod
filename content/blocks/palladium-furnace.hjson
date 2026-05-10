@@ -24,12 +24,8 @@
       ],
     },
     "liquid": {
-      "liquid": [
-        {
-          "liquid": "water",
-          "amount": 0.1
-        }
-      ]
+      "liquid": "water",
+      "amount": 0.1
     }
   },
   "requirements": [
