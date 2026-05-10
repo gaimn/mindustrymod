@@ -1,0 +1,15 @@
+{
+  "name": "Silicon Wall",
+  "description": "Protects structures from enemy projectiles, reflecting some bullets on impact.",
+  "type": "Wall",
+  "health": 380,
+  "size": 1,
+  "chanceDeflect": 3.0,
+  "research": {
+    "parent": "copper-wall",
+  },
+  "requirements": [
+    "silicon/6"
+  ],
+  "category": "defense",
+}
