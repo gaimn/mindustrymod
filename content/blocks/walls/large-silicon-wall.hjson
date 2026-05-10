@@ -9,7 +9,7 @@
     "parent": "silicon-wall",
   },
   "requirements": [
-    "silicon/6"
+    "silicon/24"
   ],
   "category": "defense",
 }
