@@ -3,7 +3,8 @@
   "category": "distribution",
   "health": 300,
   "speed": 0.5,
-  "recharge": 100,
+  "itemCapacity": 100,
+  "recharge": 0,
   "research": "conveyor",
   "requirements": [
     {
