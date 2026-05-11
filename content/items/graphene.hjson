@@ -1,0 +1,13 @@
+{
+  "name": "Palladium",
+  "description": "Used as a late game replacement for Graphite. Is extremely durable.",
+  "cost": 3,
+  "color": "4A4B53",
+  "hardness": 5,
+  "flammability": 0,
+  "explosiveness": 0,
+  "research": {
+    "parent": "graphite"
+    // add some late game bs here
+  }
+}
