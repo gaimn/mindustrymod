@@ -1,0 +1,14 @@
+{
+  "type": "StackConveyor",
+  "category": "distribution",
+  "health": 300,
+  "speed": 0.5,
+  "recharge": 100,
+  "research": "conveyor",
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 2147483647
+    }
+  ]
+}
