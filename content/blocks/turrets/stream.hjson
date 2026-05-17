@@ -1,7 +1,7 @@
 {
   "type": "laserTurret",
   "name": "Stream",
-  "description": "A less powerful version of the Meltdown.",
+  "description": "A less powerful version of the Meltdown. trest",
   "targetAir": true,
   "targetGround": true,
   "category": "turret",
