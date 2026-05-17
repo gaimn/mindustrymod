@@ -1,0 +1,78 @@
+{
+  "type": "itemTurret",
+  "name": "PLACEHOLDER",
+  "description": "Will be implemented later.",
+  "targetAir": true,
+  "targetGround": true,
+  "category": "turret",
+  "research": {
+    "parent": "salvo",
+  },
+  "health": 1100,
+  "reload": 10,
+  "size": 3,
+  "inaccuracy": 5,
+  "shootY": -2,
+  "shootCone": 5,
+  "range": 180,
+  "rotateSpeed": 8,
+  "ammoPerShot": 1,
+  "maxAmmo": 10,
+  "recoil": 2,
+  "shootEffect": "shootBig",
+  "smokeEffect": "shootBigSmoke",
+  "hitEffect": "hitBulletSmall",
+  "ammoTypes": {
+    "graphite": {
+      "type": "MissileBulletType",
+      "hitSize": 2,
+      "speed": 6,
+      "lifetime": 30,
+      "damage": 35,
+      "sprite": "missile-large",
+      "recoil": 2,
+      "homingPower": 0,
+      "ammoMultiplier": 3
+    },
+    "titanium": {
+      "type": "MissileBulletType",
+      "hitSize": 1.5,
+      "speed": 7,
+      "lifetime": 35,
+      "damage": 40,
+      "sprite": "missile-large",
+      "recoil": 2,
+      "homingPower": 0,
+      "ammoMultiplier": 3
+    },
+    "silicon": {
+      "type": "MissileBulletType",
+      "hitSize": 1.8,
+      "speed": 8,
+      "lifetime": 30,
+      "damage": 30,
+      "sprite": "missile-large",
+      "recoil": 2,
+      "homingPower": 0.2,
+      "ammoMultiplier": 3
+    }
+  },
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 150
+    },
+    {
+      "item": "lead",
+      "amount": 80
+    },
+    {
+      "item": "graphite",
+      "amount": 120
+    },
+    {
+      "item": "palladium",
+      "amount": 100
+    }
+  ]
+}
