@@ -1,7 +1,7 @@
 {
   "type": "laserTurret",
   "name": "Stream",
-  "description": "A less powerful version of the Meltdown. trest",
+  "description": "A less powerful version of the Meltdown.",
   "targetAir": true,
   "targetGround": true,
   "category": "turret",
@@ -12,10 +12,9 @@
   "health": 2000,
   "reload": 40,
   "size": 3
-  "shootY": -2,
   "range": 150,
   "rotateSpeed": 4,
-  "shootSound": "laserbig",
+  "shootSound": "hitMeltdown",
   "loopSound": "beam",
   "consumes": {
     "power": 10
