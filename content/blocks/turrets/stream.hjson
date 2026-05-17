@@ -12,16 +12,18 @@
   "health": 2000,
   "reload": 40,
   "size": 3
-  "shootY": -8,
+  "shootY": -2,
   "range": 150,
-  "rotateSpeed": 3,
+  "rotateSpeed": 4,
+  "shootSound": "laserbig",
+  "loopSound": "beam",
   "consumes": {
     "power": 10
   },
   "shootType": {
     "type": "ContinuousLaserBulletType",
     "damage": 40,
-    "width": 4,
+    "width": 3,
     "length": 140,
     "status": "melting",
     "statusDuration": 360,
