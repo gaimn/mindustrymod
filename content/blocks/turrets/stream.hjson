@@ -1,78 +1,70 @@
 {
-  "type": "itemTurret",
-  "name": "PLACEHOLDER",
-  "description": "Will be implemented later.",
+  "type": "laserTurret",
+  "name": "Stream",
+  "description": "A less powerful version of the Meltdown.",
   "targetAir": true,
   "targetGround": true,
   "category": "turret",
   "research": {
-    "parent": "salvo",
+    "parent": "lancer",
+    // overwrite meltdown research to this
   },
-  "health": 1100,
-  "reload": 10,
-  "size": 3,
-  "inaccuracy": 5,
-  "shootY": -2,
-  "shootCone": 5,
-  "range": 180,
-  "rotateSpeed": 8,
-  "ammoPerShot": 1,
-  "maxAmmo": 10,
-  "recoil": 2,
-  "shootEffect": "shootBig",
-  "smokeEffect": "shootBigSmoke",
-  "hitEffect": "hitBulletSmall",
-  "ammoTypes": {
-    "graphite": {
-      "type": "MissileBulletType",
-      "hitSize": 2,
-      "speed": 6,
-      "lifetime": 30,
-      "damage": 35,
-      "sprite": "missile-large",
-      "recoil": 2,
-      "homingPower": 0,
-      "ammoMultiplier": 3
+  "health": 2000,
+  "reload": 40,
+  "size": 3
+  "shootY": -8,
+  "range": 150,
+  "rotateSpeed": 3,
+  "consumes": {
+    "power": 10
+  },
+  "shootType": {
+    "type": "ContinuousLaserBulletType",
+    "damage": 40,
+    "width": 4,
+    "length": 140,
+    "status": "melting",
+    "statusDuration": 360,
+    "oscScl": 0.6,
+    "oscMag": 1.2,
+    "hitEffect": {
+      "type": "ParticleEffect",
+      "particles": 6,
+      "length": 30,
+      "lifetime": 15,
+      "line": true,
+      "lenFrom": 8,
+      "lenTo": 8,
+      "strokeFrom": 2,
+      "strokeTo": 0.5,
+      "colorFrom": "ffb98b",
+      "colorTo": "ffb98b50"
     },
-    "titanium": {
-      "type": "MissileBulletType",
-      "hitSize": 1.5,
-      "speed": 7,
-      "lifetime": 35,
-      "damage": 40,
-      "sprite": "missile-large",
-      "recoil": 2,
-      "homingPower": 0,
-      "ammoMultiplier": 3
-    },
-    "silicon": {
-      "type": "MissileBulletType",
-      "hitSize": 1.8,
-      "speed": 8,
-      "lifetime": 30,
-      "damage": 30,
-      "sprite": "missile-large",
-      "recoil": 2,
-      "homingPower": 0.2,
-      "ammoMultiplier": 3
-    }
+    "drawSize": 420.0,
+    "incendChance": 0.3,
+    "incendSpread": 4,
+    "incendAmount": 1
   },
   "requirements": [
     {
       "item": "copper",
-      "amount": 150
+      "amount": 800
     },
     {
       "item": "lead",
-      "amount": 80
+      "amount": 150
     },
     {
       "item": "graphite",
-      "amount": 120
+      "amount": 100
     },
     {
-      "item": "palladium",
+      "item": "silicon",
       "amount": 100
+    },
+    {
+      "item": "plastanium",
+      "amount": 75
     }
   ]
 }
